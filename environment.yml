@@ -1,0 +1,13 @@
+name: example-environment
+channels:
+  - conda-forge
+dependencies:
+  - pythonocc-core
+  - svgwrite
+  - ipywidgets
+  - numpy
+  - pythreejs
+  - nodejs
+  - pip
+  - pip:
+    - x3d==0.0.28
